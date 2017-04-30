@@ -12,6 +12,8 @@
 		05B3F7B41EB5CE8400A4416C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05B3F7B21EB5CE8400A4416C /* Main.storyboard */; };
 		05B3F7B61EB5CE8400A4416C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05B3F7B51EB5CE8400A4416C /* Assets.xcassets */; };
 		05B3F7B91EB5CE8400A4416C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05B3F7B71EB5CE8400A4416C /* LaunchScreen.storyboard */; };
+		05B3F7C11EB5CEE600A4416C /* EmbeddedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B3F7C01EB5CEE600A4416C /* EmbeddedTableViewCell.swift */; };
+		05B3F7C31EB5CF5A00A4416C /* SimpleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B3F7C21EB5CF5A00A4416C /* SimpleCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		05B3F7B51EB5CE8400A4416C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05B3F7B81EB5CE8400A4416C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05B3F7BA1EB5CE8400A4416C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05B3F7C01EB5CEE600A4416C /* EmbeddedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbeddedTableViewCell.swift; sourceTree = "<group>"; };
+		05B3F7C21EB5CF5A00A4416C /* SimpleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				05B3F7AE1EB5CE8400A4416C /* AppDelegate.swift */,
 				05B3F7B01EB5CE8400A4416C /* ViewController.swift */,
+				05B3F7C01EB5CEE600A4416C /* EmbeddedTableViewCell.swift */,
+				05B3F7C21EB5CF5A00A4416C /* SimpleCollectionViewCell.swift */,
 				05B3F7B21EB5CE8400A4416C /* Main.storyboard */,
 				05B3F7B51EB5CE8400A4416C /* Assets.xcassets */,
 				05B3F7B71EB5CE8400A4416C /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05B3F7C11EB5CEE600A4416C /* EmbeddedTableViewCell.swift in Sources */,
 				05B3F7B11EB5CE8400A4416C /* ViewController.swift in Sources */,
+				05B3F7C31EB5CF5A00A4416C /* SimpleCollectionViewCell.swift in Sources */,
 				05B3F7AF1EB5CE8400A4416C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
